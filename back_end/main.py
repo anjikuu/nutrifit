@@ -1,4 +1,4 @@
-class User:
+class user:
     def __init__(self,FirstName, LastName,username, Age, Gender,height, weight, Email ):
         
         self.FirstName=FirstName
@@ -23,6 +23,16 @@ class User:
     def choose_Wp(self):
         pass
 
-class Wplan:
+class workout_plan:
     def _init_(self,FirstName,duration):
+        pass
+
+
+class nutrition_plan:
+    def __init__(self) -> None:
+       pass
+     
+        
+class progress:
+    def __init__(self) -> None:
         pass
