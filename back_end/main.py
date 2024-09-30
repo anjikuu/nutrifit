@@ -1,8 +1,8 @@
 class user:
-    def __init__(self,FirstName, LastName,username, Age, Gender,height, weight, Email ):
+    def __init__(self,Fname, Lname,username, Age, Gender,height, weight, Email ):
         
-        self.FirstName=FirstName
-        self.LastName=LastName
+        self.Fname=Fname
+        self.Lname=Lname
         self.username=username
         self.Age=Age
         self.Gender=Gender
@@ -24,7 +24,7 @@ class user:
         pass
 
 class workout_plan:
-    def _init_(self,FirstName,duration):
+    def _init_(self,Fname,duration):
         pass
 
 
